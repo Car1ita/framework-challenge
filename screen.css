@@ -2,3 +2,104 @@
 a.active {
     font-weight: bold;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #474448;
+    color: #E1E2DA;
+    padding: 10px;
+    z-index: 1000;
+
+  }
+  
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex: 1;
+  }
+
+  nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  nav ul a {
+    color: #E1E2DA;
+    text-decoration: none;
+}
+
+.school-logo {
+    margin-left: auto;
+}
+
+.school-logo img {
+    height: 100%; 
+    width: auto;
+    display: block; 
+    max-width: 50px;
+}
+
+
+.Welcome {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 36px;
+    color: #333;
+    position: relative;
+    z-index: 10;
+}
+
+.rectangle-background{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    position: relative; 
+    z-index: -1;
+    left: 0;
+    height: calc(100vh - 60px);
+} 
+
+.rectangle {
+    background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+    width: 100%;
+    overflow: hidden; 
+}
+
+  .img1 { 
+    background-image: url('classroom.jpg');
+}
+
+.img2 { 
+    background-image: url('design.jpg');
+}
+
+.img3 { 
+    background-image: url('fashions.jpg');
+}
+
+.img4 { 
+    background-image: url('inspo.jpg');
+}
+
+.img5 { 
+    background-image: url('students.jpg');
+}
