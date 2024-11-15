@@ -13,6 +13,7 @@ body {
     font-family: Monospace,;
     min-height: 100vh; 
     background-color: #E0DDCF;
+    
 }
 
 nav {
@@ -22,6 +23,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: #474448;
+    font-size: 20px;
     color: #E1E2DA;
     padding: 10px;
     z-index: 1000;
@@ -87,14 +89,14 @@ nav ul {
 .img3 { 
     background-image: url('fashions.jpg');
 }
-
 .img4 { 
-    background-image: url('inspo.jpg');
+  background-image: url('inspo.jpg');
 }
 
 .img5 { 
-    background-image: url('students.jpg');
+  background-image: url('students.jpg');
 }
+
 
 .centered {
     position: absolute;
@@ -102,10 +104,11 @@ nav ul {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 75px;
-    font-size: bold;
+    font-weight: bold;
     font-family: "Times New Roman", Times, serif;
     color: #d7af6a;
     z-index: 10;
+    text-align: center;
   }
 
 .name {
@@ -116,6 +119,40 @@ nav ul {
     border-radius: 10px;
 }
 
+right-side-content {
+  position: absolute;
+  top: 0;
+  right: 0; 
+  width: 40%; 
+  height: 100%; 
+  padding: 20px;
+  background-color: #E0DDCF; 
+  overflow-y: auto ;
+}
+
+#academic-calendar, #newsletter {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
 /*.month {
     padding: 20px 15px;
     width: 250px;
