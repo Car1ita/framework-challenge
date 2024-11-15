@@ -10,8 +10,9 @@ a.active {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Monospace,;
     min-height: 100vh; 
+    background-color: #E0DDCF;
 }
 
 nav {
@@ -56,21 +57,12 @@ nav ul {
     max-width: 50px;
 }
 
-
-.Welcome {
-    text-align: center;
-    margin-top: 20px; 
-    font-size: 36px;
-    color: #333;
-    position: relative;
-    z-index: 10;
-}
-
 .rectangle-background{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     position: relative; 
+    text-align: center;
     z-index: -1;
     left: 0;
     height: calc(100vh - 60px);
@@ -102,4 +94,24 @@ nav ul {
 
 .img5 { 
     background-image: url('students.jpg');
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    font-size: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: #d7af6a;
+    z-index: 10;
+  }
+
+.name {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 5px solid #d7af6a; 
+    background-color: rgba(0, 0, 0, 0.389);
+    border-radius: 10px;
 }
