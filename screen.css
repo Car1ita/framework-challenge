@@ -152,7 +152,7 @@ section h2 {
   max-height: 200px;
   overflow-y: auto;
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 15px;
   margin: 10px 0;
   background-color: #fcfcfc;
   border-radius: 8px;
@@ -171,13 +171,42 @@ section h2 {
   background: #555;
 }
 
-
-ul {
-  list-style-type: none;
-  padding: 0;
+.scrollable h3{
+  font-size: 20px;
+  color: #474448;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-ul li {
-  margin-bottom: 10px;
+.scrollable h4{
   font-size: 18px;
+  color: #888;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.scrollable p{
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
+  text-align: justify;
+}
+
+.scrollable ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.scrollable ul li {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea ;
 }
